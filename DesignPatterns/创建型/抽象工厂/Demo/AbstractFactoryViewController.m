@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    ToolBarFactory *toolBarFactory = [ToolBarFactory factoryWithType:2];
+    id<ToolBarAbstractFactory> toolBarFactory = [ToolBarFactory factoryWithType:2];
     UIView *toolView = [toolBarFactory toolView];
     UIButton *tagButton = [toolBarFactory tagButton];
     

@@ -12,7 +12,7 @@
 
 @implementation ToolBarFactory
 
-+ (ToolBarFactory *)factoryWithType:(NSInteger)type {
++ (id<ToolBarAbstractFactory>)factoryWithType:(NSInteger)type {
     if (type == 1) {
         return [[LeftToolBarFactory alloc] init];
     }
