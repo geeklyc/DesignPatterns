@@ -23,12 +23,4 @@
     return nil;
 }
 
-- (UIView *)toolView {
-    return nil;
-}
-
-- (UIButton *)tagButton {
-    return nil;
-}
-
 @end

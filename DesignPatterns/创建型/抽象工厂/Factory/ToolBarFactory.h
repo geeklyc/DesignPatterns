@@ -14,10 +14,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (ToolBarFactory *)factoryWithType:(NSInteger)type;
 
-- (UIView *)toolView;
-
-- (UIButton *)tagButton;
-
 @end
 
 NS_ASSUME_NONNULL_END

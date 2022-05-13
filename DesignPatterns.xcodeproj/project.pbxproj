@@ -161,6 +161,7 @@
 		0015A20C282DF18300DF9915 /* YXDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXDataManager.m; sourceTree = "<group>"; };
 		0015A214282DF50600DF9915 /* YXSubDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXSubDataManager.h; sourceTree = "<group>"; };
 		0015A215282DF50600DF9915 /* YXSubDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXSubDataManager.m; sourceTree = "<group>"; };
+		0015A22B282E13FC00DF9915 /* ToolBarAbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolBarAbstractFactory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,22 +268,9 @@
 		0015A145282A64B800DF9915 /* 抽象工厂 */ = {
 			isa = PBXGroup;
 			children = (
-				0015A151282A64B800DF9915 /* LeftToolBarFactory.h */,
-				0015A146282A64B800DF9915 /* LeftToolBarFactory.m */,
-				0015A149282A64B800DF9915 /* RightToolBarFactory.h */,
-				0015A14E282A64B800DF9915 /* RightToolBarFactory.m */,
-				0015A154282A64B800DF9915 /* AbstractFactoryViewController.h */,
-				0015A14B282A64B800DF9915 /* AbstractFactoryViewController.m */,
-				0015A14C282A64B800DF9915 /* ToolBarFactory.h */,
-				0015A153282A64B800DF9915 /* ToolBarFactory.m */,
-				0015A14F282A64B800DF9915 /* RightToolView.h */,
-				0015A148282A64B800DF9915 /* RightToolView.m */,
-				0015A150282A64B800DF9915 /* LeftTagButton.h */,
-				0015A147282A64B800DF9915 /* LeftTagButton.m */,
-				0015A152282A64B800DF9915 /* RightTagButton.h */,
-				0015A14D282A64B800DF9915 /* RightTagButton.m */,
-				0015A155282A64B800DF9915 /* LeftToolView.h */,
-				0015A14A282A64B800DF9915 /* LeftToolView.m */,
+				0015A22A282E131600DF9915 /* Demo */,
+				0015A229282E130000DF9915 /* Factory */,
+				0015A228282E12F500DF9915 /* Product */,
 			);
 			path = "抽象工厂";
 			sourceTree = "<group>";
@@ -361,20 +349,10 @@
 		0015A17C282A64B800DF9915 /* 工厂 */ = {
 			isa = PBXGroup;
 			children = (
-				0015A17D282A64B800DF9915 /* PaperCanvasViewGenerator.h */,
-				0015A187282A64B800DF9915 /* PaperCanvasViewGenerator.m */,
-				0015A184282A64B800DF9915 /* CanvasView.h */,
-				0015A180282A64B800DF9915 /* CanvasView.m */,
-				0015A182282A64B800DF9915 /* PaperCanvasView.h */,
-				0015A189282A64B800DF9915 /* PaperCanvasView.m */,
-				0015A185282A64B800DF9915 /* ClothCanvasView.h */,
-				0015A17E282A64B800DF9915 /* ClothCanvasView.m */,
-				0015A186282A64B800DF9915 /* CanvasViewGenerator.h */,
-				0015A17F282A64B800DF9915 /* CanvasViewGenerator.m */,
+				0015A224282E02DE00DF9915 /* Generator */,
+				0015A223282E02CB00DF9915 /* CanvasView */,
 				0015A188282A64B800DF9915 /* CanvasViewController.h */,
 				0015A181282A64B800DF9915 /* CanvasViewController.m */,
-				0015A18A282A64B800DF9915 /* ClothCanvasViewGenerator.h */,
-				0015A183282A64B800DF9915 /* ClothCanvasViewGenerator.m */,
 			);
 			path = "工厂";
 			sourceTree = "<group>";
@@ -441,6 +419,70 @@
 			children = (
 				0015A1F1282DE52000DF9915 /* YXAdaterDemoViewController.h */,
 				0015A1F2282DE52000DF9915 /* YXAdaterDemoViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		0015A223282E02CB00DF9915 /* CanvasView */ = {
+			isa = PBXGroup;
+			children = (
+				0015A184282A64B800DF9915 /* CanvasView.h */,
+				0015A180282A64B800DF9915 /* CanvasView.m */,
+				0015A182282A64B800DF9915 /* PaperCanvasView.h */,
+				0015A189282A64B800DF9915 /* PaperCanvasView.m */,
+				0015A185282A64B800DF9915 /* ClothCanvasView.h */,
+				0015A17E282A64B800DF9915 /* ClothCanvasView.m */,
+			);
+			path = CanvasView;
+			sourceTree = "<group>";
+		};
+		0015A224282E02DE00DF9915 /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				0015A17D282A64B800DF9915 /* PaperCanvasViewGenerator.h */,
+				0015A187282A64B800DF9915 /* PaperCanvasViewGenerator.m */,
+				0015A186282A64B800DF9915 /* CanvasViewGenerator.h */,
+				0015A17F282A64B800DF9915 /* CanvasViewGenerator.m */,
+				0015A18A282A64B800DF9915 /* ClothCanvasViewGenerator.h */,
+				0015A183282A64B800DF9915 /* ClothCanvasViewGenerator.m */,
+			);
+			path = Generator;
+			sourceTree = "<group>";
+		};
+		0015A228282E12F500DF9915 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				0015A14F282A64B800DF9915 /* RightToolView.h */,
+				0015A148282A64B800DF9915 /* RightToolView.m */,
+				0015A150282A64B800DF9915 /* LeftTagButton.h */,
+				0015A147282A64B800DF9915 /* LeftTagButton.m */,
+				0015A152282A64B800DF9915 /* RightTagButton.h */,
+				0015A14D282A64B800DF9915 /* RightTagButton.m */,
+				0015A155282A64B800DF9915 /* LeftToolView.h */,
+				0015A14A282A64B800DF9915 /* LeftToolView.m */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		0015A229282E130000DF9915 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				0015A151282A64B800DF9915 /* LeftToolBarFactory.h */,
+				0015A146282A64B800DF9915 /* LeftToolBarFactory.m */,
+				0015A149282A64B800DF9915 /* RightToolBarFactory.h */,
+				0015A14E282A64B800DF9915 /* RightToolBarFactory.m */,
+				0015A14C282A64B800DF9915 /* ToolBarFactory.h */,
+				0015A153282A64B800DF9915 /* ToolBarFactory.m */,
+				0015A22B282E13FC00DF9915 /* ToolBarAbstractFactory.h */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		0015A22A282E131600DF9915 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0015A154282A64B800DF9915 /* AbstractFactoryViewController.h */,
+				0015A14B282A64B800DF9915 /* AbstractFactoryViewController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
