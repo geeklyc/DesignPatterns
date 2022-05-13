@@ -5,28 +5,28 @@
 //  Created by liyoucheng on 2021/4/5.
 //
 
-#import "PrototypeViewController.h"
+#import "YXPrototypeViewController.h"
 
-#import "Node.h"
-#import "SubNode.h"
+#import "YXNode.h"
+#import "YXSubNode.h"
 
-@interface PrototypeViewController ()
+@interface YXPrototypeViewController ()
 
 @end
 
-@implementation PrototypeViewController
+@implementation YXPrototypeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    SubNode *subNode1 = [[SubNode alloc] init];
+    YXSubNode *subNode1 = [[YXSubNode alloc] init];
     subNode1.name =  @"子节点1";
     
-    SubNode *subNode2 = [[SubNode alloc] init];
+    YXSubNode *subNode2 = [[YXSubNode alloc] init];
     subNode2.name =  @"子节点2";
     
-    Node *node = [[Node alloc] init];
+    YXNode *node = [[YXNode alloc] init];
     node.name = @"姓名";
     node.address  = @"深圳市";
     node.list = @[
@@ -34,7 +34,7 @@
         subNode2,
     ];
     
-    Node *node1 = [node copy];
+    YXNode *node1 = [node copy];
     
     node.name = @"新名字";
     node.list[0].name = @"新子节点";
@@ -43,7 +43,7 @@
     [self printNode:node1];
 }
 
-- (void)printNode:(Node *)node {
+- (void)printNode:(YXNode *)node {
     NSLog(@"name %@\n", node.name);
     NSLog(@"address %@\n", node.name);
     NSLog(@"list %@ - %@\n", node.list[0], node.list[1]);

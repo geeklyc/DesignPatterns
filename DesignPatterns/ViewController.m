@@ -7,11 +7,13 @@
 
 #import "ViewController.h"
 
-#import "PrototypeViewController.h"
+#import "YXPrototypeViewController.h"
 #import "CanvasViewController.h"
 #import "AbstractFactoryViewController.h"
 #import "BuilderViewController.h"
+
 #import "YXDataManager.h"
+#import "YXSubDataManager.h"
 
 #import "FadeViewController.h"
 
@@ -70,7 +72,7 @@ UITableViewDataSource>
 //        }
     } else if (indexPath.section == 1) {
         if (indexPath.row == 0) {
-            PrototypeViewController *vc = [[PrototypeViewController alloc] init];
+            YXPrototypeViewController *vc = [[YXPrototypeViewController alloc] init];
             [self presentViewController:vc animated:YES completion:nil];
         }
         
@@ -94,7 +96,7 @@ UITableViewDataSource>
             YXDataManager *manager2 = [YXDataManager shareManager];
             YXDataManager *manager3 = [YXDataManager new];
             YXDataManager *manager4 = [YXDataManager new];
-            NSLog(@"单例 %p-%p-%p-%p-%p", manager1, manager2, manager3, manager4, [manager1 copy]);
+            NSLog(@"单例 %p-%p-%p-%p-%p-%p-%p", manager1, manager2, manager3, manager4, [manager1 copy], [YXSubDataManager shareManager], [YXDataManager new]);
 //            [DataManager managerCenter].score = 10;
 //            NSLog(@"单例分数 %ld", (long)[DataManager managerCenter].score);
         }

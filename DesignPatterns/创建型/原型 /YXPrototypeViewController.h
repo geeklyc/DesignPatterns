@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PrototypeViewController : UIViewController
+@interface YXPrototypeViewController : UIViewController
 
 @end
 

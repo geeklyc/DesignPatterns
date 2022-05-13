@@ -28,10 +28,9 @@
 		0015A1A2282A64B800DF9915 /* YEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A15E282A64B800DF9915 /* YEngine.m */; };
 		0015A1A6282A64B800DF9915 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A16C282A64B800DF9915 /* Builder.m */; };
 		0015A1A8282A64B800DF9915 /* BuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A170282A64B800DF9915 /* BuilderViewController.m */; };
-		0015A1A9282A64B800DF9915 /* PrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A174282A64B800DF9915 /* PrototypeViewController.m */; };
-		0015A1AA282A64B800DF9915 /* SubNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A176282A64B800DF9915 /* SubNode.m */; };
-		0015A1AB282A64B800DF9915 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A178282A64B800DF9915 /* Node.m */; };
-		0015A1AC282A64B800DF9915 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A17B282A64B800DF9915 /* DataManager.m */; };
+		0015A1A9282A64B800DF9915 /* YXPrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A174282A64B800DF9915 /* YXPrototypeViewController.m */; };
+		0015A1AA282A64B800DF9915 /* YXSubNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A176282A64B800DF9915 /* YXSubNode.m */; };
+		0015A1AB282A64B800DF9915 /* YXNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A178282A64B800DF9915 /* YXNode.m */; };
 		0015A1AD282A64B800DF9915 /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A17E282A64B800DF9915 /* ClothCanvasView.m */; };
 		0015A1AE282A64B800DF9915 /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A17F282A64B800DF9915 /* CanvasViewGenerator.m */; };
 		0015A1AF282A64B800DF9915 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A180282A64B800DF9915 /* CanvasView.m */; };
@@ -50,6 +49,7 @@
 		0015A1F3282DE52000DF9915 /* YXAdaterDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A1F2282DE52000DF9915 /* YXAdaterDemoViewController.m */; };
 		0015A1FE282DE5E500DF9915 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A1FD282DE5E500DF9915 /* ViewController.m */; };
 		0015A20D282DF18300DF9915 /* YXDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A20C282DF18300DF9915 /* YXDataManager.m */; };
+		0015A216282DF50600DF9915 /* YXSubDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A215282DF50600DF9915 /* YXSubDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,14 +117,12 @@
 		0015A16D282A64B800DF9915 /* BuilderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderProtocol.h; sourceTree = "<group>"; };
 		0015A16E282A64B800DF9915 /* Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
 		0015A170282A64B800DF9915 /* BuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderViewController.m; sourceTree = "<group>"; };
-		0015A173282A64B800DF9915 /* SubNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubNode.h; sourceTree = "<group>"; };
-		0015A174282A64B800DF9915 /* PrototypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeViewController.m; sourceTree = "<group>"; };
-		0015A175282A64B800DF9915 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
-		0015A176282A64B800DF9915 /* SubNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubNode.m; sourceTree = "<group>"; };
-		0015A177282A64B800DF9915 /* PrototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrototypeViewController.h; sourceTree = "<group>"; };
-		0015A178282A64B800DF9915 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
-		0015A17A282A64B800DF9915 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
-		0015A17B282A64B800DF9915 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		0015A173282A64B800DF9915 /* YXSubNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXSubNode.h; sourceTree = "<group>"; };
+		0015A174282A64B800DF9915 /* YXPrototypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXPrototypeViewController.m; sourceTree = "<group>"; };
+		0015A175282A64B800DF9915 /* YXNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXNode.h; sourceTree = "<group>"; };
+		0015A176282A64B800DF9915 /* YXSubNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXSubNode.m; sourceTree = "<group>"; };
+		0015A177282A64B800DF9915 /* YXPrototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXPrototypeViewController.h; sourceTree = "<group>"; };
+		0015A178282A64B800DF9915 /* YXNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXNode.m; sourceTree = "<group>"; };
 		0015A17D282A64B800DF9915 /* PaperCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperCanvasViewGenerator.h; sourceTree = "<group>"; };
 		0015A17E282A64B800DF9915 /* ClothCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasView.m; sourceTree = "<group>"; };
 		0015A17F282A64B800DF9915 /* CanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
@@ -161,6 +159,8 @@
 		0015A1FD282DE5E500DF9915 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0015A20B282DF18300DF9915 /* YXDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXDataManager.h; sourceTree = "<group>"; };
 		0015A20C282DF18300DF9915 /* YXDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXDataManager.m; sourceTree = "<group>"; };
+		0015A214282DF50600DF9915 /* YXSubDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXSubDataManager.h; sourceTree = "<group>"; };
+		0015A215282DF50600DF9915 /* YXSubDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXSubDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -337,12 +337,12 @@
 		0015A172282A64B800DF9915 /* 原型  */ = {
 			isa = PBXGroup;
 			children = (
-				0015A173282A64B800DF9915 /* SubNode.h */,
-				0015A176282A64B800DF9915 /* SubNode.m */,
-				0015A177282A64B800DF9915 /* PrototypeViewController.h */,
-				0015A174282A64B800DF9915 /* PrototypeViewController.m */,
-				0015A175282A64B800DF9915 /* Node.h */,
-				0015A178282A64B800DF9915 /* Node.m */,
+				0015A173282A64B800DF9915 /* YXSubNode.h */,
+				0015A176282A64B800DF9915 /* YXSubNode.m */,
+				0015A177282A64B800DF9915 /* YXPrototypeViewController.h */,
+				0015A174282A64B800DF9915 /* YXPrototypeViewController.m */,
+				0015A175282A64B800DF9915 /* YXNode.h */,
+				0015A178282A64B800DF9915 /* YXNode.m */,
 			);
 			path = "原型 ";
 			sourceTree = "<group>";
@@ -350,10 +350,10 @@
 		0015A179282A64B800DF9915 /* 单例 */ = {
 			isa = PBXGroup;
 			children = (
-				0015A17A282A64B800DF9915 /* DataManager.h */,
-				0015A17B282A64B800DF9915 /* DataManager.m */,
 				0015A20B282DF18300DF9915 /* YXDataManager.h */,
 				0015A20C282DF18300DF9915 /* YXDataManager.m */,
+				0015A214282DF50600DF9915 /* YXSubDataManager.h */,
+				0015A215282DF50600DF9915 /* YXSubDataManager.m */,
 			);
 			path = "单例";
 			sourceTree = "<group>";
@@ -583,11 +583,12 @@
 				0015A10D282A3E8800DF9915 /* AppDelegate.m in Sources */,
 				0015A1B4282A64B800DF9915 /* ShapeMaker.m in Sources */,
 				0015A1FE282DE5E500DF9915 /* ViewController.m in Sources */,
-				0015A1A9282A64B800DF9915 /* PrototypeViewController.m in Sources */,
+				0015A1A9282A64B800DF9915 /* YXPrototypeViewController.m in Sources */,
 				0015A20D282DF18300DF9915 /* YXDataManager.m in Sources */,
+				0015A216282DF50600DF9915 /* YXSubDataManager.m in Sources */,
 				0015A1A6282A64B800DF9915 /* Builder.m in Sources */,
 				0015A1AE282A64B800DF9915 /* CanvasViewGenerator.m in Sources */,
-				0015A1AB282A64B800DF9915 /* Node.m in Sources */,
+				0015A1AB282A64B800DF9915 /* YXNode.m in Sources */,
 				0015A1B6282A64B800DF9915 /* Rectangle.m in Sources */,
 				0015A1AF282A64B800DF9915 /* CanvasView.m in Sources */,
 				0015A1B2282A64B800DF9915 /* PaperCanvasViewGenerator.m in Sources */,
@@ -602,11 +603,10 @@
 				0015A197282A64B800DF9915 /* LeftToolBarFactory.m in Sources */,
 				0015A1DD282DE40000DF9915 /* YXNewRequest2.m in Sources */,
 				0015A19D282A64B800DF9915 /* RightToolBarFactory.m in Sources */,
-				0015A1AC282A64B800DF9915 /* DataManager.m in Sources */,
 				0015A19E282A64B800DF9915 /* ToolBarFactory.m in Sources */,
 				0015A1B8282A64B800DF9915 /* Shape.m in Sources */,
 				0015A1B7282A64B800DF9915 /* Circle.m in Sources */,
-				0015A1AA282A64B800DF9915 /* SubNode.m in Sources */,
+				0015A1AA282A64B800DF9915 /* YXSubNode.m in Sources */,
 				0015A19F282A64B800DF9915 /* Wheels.m in Sources */,
 				0015A1B5282A64B800DF9915 /* FadeViewController.m in Sources */,
 				0015A1B3282A64B800DF9915 /* PaperCanvasView.m in Sources */,

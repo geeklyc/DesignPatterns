@@ -5,13 +5,13 @@
 //  Created by liyoucheng on 2021/4/5.
 //
 
-#import "Node.h"
+#import "YXNode.h"
 
-@implementation Node
+@implementation YXNode
 
 - (id)copyWithZone:(nullable NSZone *)zone {
     
-    Node *node =  [[Node alloc] init];
+    YXNode *node =  [[YXNode alloc] init];
     if (node) {
         node.name = self.name;
         node.address = self.address;

@@ -5,13 +5,13 @@
 //  Created by liyoucheng on 2021/4/5.
 //
 
-#import "SubNode.h"
+#import "YXSubNode.h"
 
-@implementation SubNode
+@implementation YXSubNode
 
 - (id)copyWithZone:(nullable NSZone *)zone {
     
-    SubNode *node =  [[SubNode alloc] init];
+    YXSubNode *node =  [[YXSubNode alloc] init];
     if (node) {
         node.name = self.name;
     }
