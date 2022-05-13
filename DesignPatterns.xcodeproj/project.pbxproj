@@ -49,6 +49,7 @@
 		0015A1E3282DE41000DF9915 /* YXNewRequest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A1E2282DE41000DF9915 /* YXNewRequest1.m */; };
 		0015A1F3282DE52000DF9915 /* YXAdaterDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A1F2282DE52000DF9915 /* YXAdaterDemoViewController.m */; };
 		0015A1FE282DE5E500DF9915 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A1FD282DE5E500DF9915 /* ViewController.m */; };
+		0015A20D282DF18300DF9915 /* YXDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A20C282DF18300DF9915 /* YXDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +159,8 @@
 		0015A1F1282DE52000DF9915 /* YXAdaterDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXAdaterDemoViewController.h; sourceTree = "<group>"; };
 		0015A1F2282DE52000DF9915 /* YXAdaterDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXAdaterDemoViewController.m; sourceTree = "<group>"; };
 		0015A1FD282DE5E500DF9915 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0015A20B282DF18300DF9915 /* YXDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXDataManager.h; sourceTree = "<group>"; };
+		0015A20C282DF18300DF9915 /* YXDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -349,6 +352,8 @@
 			children = (
 				0015A17A282A64B800DF9915 /* DataManager.h */,
 				0015A17B282A64B800DF9915 /* DataManager.m */,
+				0015A20B282DF18300DF9915 /* YXDataManager.h */,
+				0015A20C282DF18300DF9915 /* YXDataManager.m */,
 			);
 			path = "单例";
 			sourceTree = "<group>";
@@ -579,6 +584,7 @@
 				0015A1B4282A64B800DF9915 /* ShapeMaker.m in Sources */,
 				0015A1FE282DE5E500DF9915 /* ViewController.m in Sources */,
 				0015A1A9282A64B800DF9915 /* PrototypeViewController.m in Sources */,
+				0015A20D282DF18300DF9915 /* YXDataManager.m in Sources */,
 				0015A1A6282A64B800DF9915 /* Builder.m in Sources */,
 				0015A1AE282A64B800DF9915 /* CanvasViewGenerator.m in Sources */,
 				0015A1AB282A64B800DF9915 /* Node.m in Sources */,

@@ -11,7 +11,7 @@
 #import "CanvasViewController.h"
 #import "AbstractFactoryViewController.h"
 #import "BuilderViewController.h"
-#import "DataManager.h"
+#import "YXDataManager.h"
 
 #import "FadeViewController.h"
 
@@ -90,8 +90,13 @@ UITableViewDataSource>
         }
         
         if (indexPath.row == 4) {
-            [DataManager managerCenter].score = 10;
-            NSLog(@"单例分数 %ld", (long)[DataManager managerCenter].score);
+            YXDataManager *manager1 = [YXDataManager shareManager];
+            YXDataManager *manager2 = [YXDataManager shareManager];
+            YXDataManager *manager3 = [YXDataManager new];
+            YXDataManager *manager4 = [YXDataManager new];
+            NSLog(@"单例 %p-%p-%p-%p-%p", manager1, manager2, manager3, manager4, [manager1 copy]);
+//            [DataManager managerCenter].score = 10;
+//            NSLog(@"单例分数 %ld", (long)[DataManager managerCenter].score);
         }
     } else if(indexPath.section == 2) {
         if (indexPath.row == 4) {
@@ -125,7 +130,7 @@ UITableViewDataSource>
         },@{
                             @"name": @"结构型",
                             @"list": @[
-                                    @"代理", @"桥接", @"装饰", @"适配器- 已完成", @"门面（外观）", @"组合", @"享元"
+                                    @"代理", @"桥接", @"装饰", @"【已完成】适配器", @"门面（外观）", @"组合", @"享元"
                             ],
         },@{
                             @"name": @"行为型",
