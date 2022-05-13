@@ -7,7 +7,7 @@
 
 #import "BuilderViewController.h"
 
-#import "ChasingGame.h"
+//#import "ChasingGame.h"
 
 #import "Builder.h"
 #import "Engine.h"

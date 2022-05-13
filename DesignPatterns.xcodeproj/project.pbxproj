@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0015A10D282A3E8800DF9915 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A10C282A3E8800DF9915 /* AppDelegate.m */; };
-		0015A110282A3E8800DF9915 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A10F282A3E8800DF9915 /* SceneDelegate.m */; };
-		0015A113282A3E8800DF9915 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A112282A3E8800DF9915 /* ViewController.m */; };
 		0015A116282A3E8800DF9915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0015A114282A3E8800DF9915 /* Main.storyboard */; };
 		0015A118282A3E8A00DF9915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0015A117282A3E8A00DF9915 /* Assets.xcassets */; };
 		0015A11B282A3E8A00DF9915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0015A119282A3E8A00DF9915 /* LaunchScreen.storyboard */; };
@@ -28,11 +26,7 @@
 		0015A1A0282A64B800DF9915 /* Door.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A15B282A64B800DF9915 /* Door.m */; };
 		0015A1A1282A64B800DF9915 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A15C282A64B800DF9915 /* Engine.m */; };
 		0015A1A2282A64B800DF9915 /* YEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A15E282A64B800DF9915 /* YEngine.m */; };
-		0015A1A3282A64B800DF9915 /* ChasingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A162282A64B800DF9915 /* ChasingGame.m */; };
-		0015A1A4282A64B800DF9915 /* StandardCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A169282A64B800DF9915 /* StandardCharacterBuilder.m */; };
-		0015A1A5282A64B800DF9915 /* CharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A16A282A64B800DF9915 /* CharacterBuilder.m */; };
 		0015A1A6282A64B800DF9915 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A16C282A64B800DF9915 /* Builder.m */; };
-		0015A1A7282A64B800DF9915 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A16F282A64B800DF9915 /* Character.m */; };
 		0015A1A8282A64B800DF9915 /* BuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A170282A64B800DF9915 /* BuilderViewController.m */; };
 		0015A1A9282A64B800DF9915 /* PrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A174282A64B800DF9915 /* PrototypeViewController.m */; };
 		0015A1AA282A64B800DF9915 /* SubNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A176282A64B800DF9915 /* SubNode.m */; };
@@ -50,6 +44,11 @@
 		0015A1B6282A64B800DF9915 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A190282A64B800DF9915 /* Rectangle.m */; };
 		0015A1B7282A64B800DF9915 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A194282A64B800DF9915 /* Circle.m */; };
 		0015A1B8282A64B800DF9915 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A196282A64B800DF9915 /* Shape.m */; };
+		0015A1CE282DE3C100DF9915 /* YXOldRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A1CD282DE3C100DF9915 /* YXOldRequest.m */; };
+		0015A1DD282DE40000DF9915 /* YXNewRequest2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A1DC282DE40000DF9915 /* YXNewRequest2.m */; };
+		0015A1E3282DE41000DF9915 /* YXNewRequest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A1E2282DE41000DF9915 /* YXNewRequest1.m */; };
+		0015A1F3282DE52000DF9915 /* YXAdaterDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A1F2282DE52000DF9915 /* YXAdaterDemoViewController.m */; };
+		0015A1FE282DE5E500DF9915 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A1FD282DE5E500DF9915 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,10 +72,7 @@
 		0015A108282A3E8800DF9915 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0015A10B282A3E8800DF9915 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0015A10C282A3E8800DF9915 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0015A10E282A3E8800DF9915 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		0015A10F282A3E8800DF9915 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		0015A111282A3E8800DF9915 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0015A112282A3E8800DF9915 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0015A115282A3E8800DF9915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0015A117282A3E8A00DF9915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0015A11A282A3E8A00DF9915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -112,22 +108,14 @@
 		0015A15D282A64B800DF9915 /* Door.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Door.h; sourceTree = "<group>"; };
 		0015A15E282A64B800DF9915 /* YEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YEngine.m; sourceTree = "<group>"; };
 		0015A15F282A64B800DF9915 /* Wheels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wheels.h; sourceTree = "<group>"; };
-		0015A160282A64B800DF9915 /* CharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterBuilder.h; sourceTree = "<group>"; };
-		0015A161282A64B800DF9915 /* StandardCharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardCharacterBuilder.h; sourceTree = "<group>"; };
-		0015A162282A64B800DF9915 /* ChasingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChasingGame.m; sourceTree = "<group>"; };
 		0015A163282A64B800DF9915 /* BuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderViewController.h; sourceTree = "<group>"; };
-		0015A164282A64B800DF9915 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
 		0015A166282A64B800DF9915 /* AbstractWheels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractWheels.h; sourceTree = "<group>"; };
 		0015A167282A64B800DF9915 /* AbstractEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractEngine.h; sourceTree = "<group>"; };
 		0015A168282A64B800DF9915 /* AbstractDoor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractDoor.h; sourceTree = "<group>"; };
-		0015A169282A64B800DF9915 /* StandardCharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardCharacterBuilder.m; sourceTree = "<group>"; };
-		0015A16A282A64B800DF9915 /* CharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterBuilder.m; sourceTree = "<group>"; };
 		0015A16C282A64B800DF9915 /* Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
 		0015A16D282A64B800DF9915 /* BuilderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderProtocol.h; sourceTree = "<group>"; };
 		0015A16E282A64B800DF9915 /* Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
-		0015A16F282A64B800DF9915 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 		0015A170282A64B800DF9915 /* BuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderViewController.m; sourceTree = "<group>"; };
-		0015A171282A64B800DF9915 /* ChasingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChasingGame.h; sourceTree = "<group>"; };
 		0015A173282A64B800DF9915 /* SubNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubNode.h; sourceTree = "<group>"; };
 		0015A174282A64B800DF9915 /* PrototypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeViewController.m; sourceTree = "<group>"; };
 		0015A175282A64B800DF9915 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
@@ -160,6 +148,16 @@
 		0015A194282A64B800DF9915 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
 		0015A195282A64B800DF9915 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
 		0015A196282A64B800DF9915 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		0015A1CB282DE37C00DF9915 /* YXRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXRequest.h; sourceTree = "<group>"; };
+		0015A1CC282DE3C100DF9915 /* YXOldRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXOldRequest.h; sourceTree = "<group>"; };
+		0015A1CD282DE3C100DF9915 /* YXOldRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXOldRequest.m; sourceTree = "<group>"; };
+		0015A1DB282DE40000DF9915 /* YXNewRequest2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXNewRequest2.h; sourceTree = "<group>"; };
+		0015A1DC282DE40000DF9915 /* YXNewRequest2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXNewRequest2.m; sourceTree = "<group>"; };
+		0015A1E1282DE41000DF9915 /* YXNewRequest1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXNewRequest1.h; sourceTree = "<group>"; };
+		0015A1E2282DE41000DF9915 /* YXNewRequest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXNewRequest1.m; sourceTree = "<group>"; };
+		0015A1F1282DE52000DF9915 /* YXAdaterDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXAdaterDemoViewController.h; sourceTree = "<group>"; };
+		0015A1F2282DE52000DF9915 /* YXAdaterDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXAdaterDemoViewController.m; sourceTree = "<group>"; };
+		0015A1FD282DE5E500DF9915 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,10 +213,8 @@
 				0015A143282A64B800DF9915 /* 行为型 */,
 				0015A10B282A3E8800DF9915 /* AppDelegate.h */,
 				0015A10C282A3E8800DF9915 /* AppDelegate.m */,
-				0015A10E282A3E8800DF9915 /* SceneDelegate.h */,
-				0015A10F282A3E8800DF9915 /* SceneDelegate.m */,
 				0015A111282A3E8800DF9915 /* ViewController.h */,
-				0015A112282A3E8800DF9915 /* ViewController.m */,
+				0015A1FD282DE5E500DF9915 /* ViewController.m */,
 				0015A114282A3E8800DF9915 /* Main.storyboard */,
 				0015A117282A3E8A00DF9915 /* Assets.xcassets */,
 				0015A119282A3E8A00DF9915 /* LaunchScreen.storyboard */,
@@ -292,18 +288,10 @@
 			isa = PBXGroup;
 			children = (
 				0015A157282A64B800DF9915 /* ImplementationParts */,
-				0015A160282A64B800DF9915 /* CharacterBuilder.h */,
-				0015A16A282A64B800DF9915 /* CharacterBuilder.m */,
-				0015A161282A64B800DF9915 /* StandardCharacterBuilder.h */,
-				0015A169282A64B800DF9915 /* StandardCharacterBuilder.m */,
 				0015A163282A64B800DF9915 /* BuilderViewController.h */,
 				0015A170282A64B800DF9915 /* BuilderViewController.m */,
-				0015A164282A64B800DF9915 /* Character.h */,
-				0015A16F282A64B800DF9915 /* Character.m */,
 				0015A165282A64B800DF9915 /* AbstractParts */,
 				0015A16B282A64B800DF9915 /* Builder */,
-				0015A171282A64B800DF9915 /* ChasingGame.h */,
-				0015A162282A64B800DF9915 /* ChasingGame.m */,
 			);
 			path = "建造者（生成器）";
 			sourceTree = "<group>";
@@ -389,6 +377,7 @@
 		0015A18B282A64B800DF9915 /* 结构型 */ = {
 			isa = PBXGroup;
 			children = (
+				0015A1C8282B441300DF9915 /* 适配器 */,
 				0015A18C282A64B800DF9915 /* 门面（外观） */,
 			);
 			path = "结构型";
@@ -409,6 +398,46 @@
 				0015A196282A64B800DF9915 /* Shape.m */,
 			);
 			path = "门面（外观）";
+			sourceTree = "<group>";
+		};
+		0015A1C8282B441300DF9915 /* 适配器 */ = {
+			isa = PBXGroup;
+			children = (
+				0015A1EA282DE46500DF9915 /* Demo */,
+				0015A1CB282DE37C00DF9915 /* YXRequest.h */,
+				0015A1CC282DE3C100DF9915 /* YXOldRequest.h */,
+				0015A1CD282DE3C100DF9915 /* YXOldRequest.m */,
+				0015A1CA282B442000DF9915 /* 类 */,
+				0015A1C9282B441B00DF9915 /* 对象 */,
+			);
+			path = "适配器";
+			sourceTree = "<group>";
+		};
+		0015A1C9282B441B00DF9915 /* 对象 */ = {
+			isa = PBXGroup;
+			children = (
+				0015A1DB282DE40000DF9915 /* YXNewRequest2.h */,
+				0015A1DC282DE40000DF9915 /* YXNewRequest2.m */,
+			);
+			path = "对象";
+			sourceTree = "<group>";
+		};
+		0015A1CA282B442000DF9915 /* 类 */ = {
+			isa = PBXGroup;
+			children = (
+				0015A1E1282DE41000DF9915 /* YXNewRequest1.h */,
+				0015A1E2282DE41000DF9915 /* YXNewRequest1.m */,
+			);
+			path = "类";
+			sourceTree = "<group>";
+		};
+		0015A1EA282DE46500DF9915 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0015A1F1282DE52000DF9915 /* YXAdaterDemoViewController.h */,
+				0015A1F2282DE52000DF9915 /* YXAdaterDemoViewController.m */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -540,13 +569,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0015A113282A3E8800DF9915 /* ViewController.m in Sources */,
+				0015A1CE282DE3C100DF9915 /* YXOldRequest.m in Sources */,
 				0015A198282A64B800DF9915 /* LeftTagButton.m in Sources */,
 				0015A1B1282A64B800DF9915 /* ClothCanvasViewGenerator.m in Sources */,
 				0015A1B0282A64B800DF9915 /* CanvasViewController.m in Sources */,
+				0015A1F3282DE52000DF9915 /* YXAdaterDemoViewController.m in Sources */,
 				0015A1AD282A64B800DF9915 /* ClothCanvasView.m in Sources */,
 				0015A10D282A3E8800DF9915 /* AppDelegate.m in Sources */,
 				0015A1B4282A64B800DF9915 /* ShapeMaker.m in Sources */,
+				0015A1FE282DE5E500DF9915 /* ViewController.m in Sources */,
 				0015A1A9282A64B800DF9915 /* PrototypeViewController.m in Sources */,
 				0015A1A6282A64B800DF9915 /* Builder.m in Sources */,
 				0015A1AE282A64B800DF9915 /* CanvasViewGenerator.m in Sources */,
@@ -555,10 +586,7 @@
 				0015A1AF282A64B800DF9915 /* CanvasView.m in Sources */,
 				0015A1B2282A64B800DF9915 /* PaperCanvasViewGenerator.m in Sources */,
 				0015A1A2282A64B800DF9915 /* YEngine.m in Sources */,
-				0015A1A4282A64B800DF9915 /* StandardCharacterBuilder.m in Sources */,
 				0015A1A0282A64B800DF9915 /* Door.m in Sources */,
-				0015A1A3282A64B800DF9915 /* ChasingGame.m in Sources */,
-				0015A1A7282A64B800DF9915 /* Character.m in Sources */,
 				0015A19B282A64B800DF9915 /* AbstractFactoryViewController.m in Sources */,
 				0015A199282A64B800DF9915 /* RightToolView.m in Sources */,
 				0015A19C282A64B800DF9915 /* RightTagButton.m in Sources */,
@@ -566,18 +594,18 @@
 				0015A11E282A3E8A00DF9915 /* main.m in Sources */,
 				0015A19A282A64B800DF9915 /* LeftToolView.m in Sources */,
 				0015A197282A64B800DF9915 /* LeftToolBarFactory.m in Sources */,
+				0015A1DD282DE40000DF9915 /* YXNewRequest2.m in Sources */,
 				0015A19D282A64B800DF9915 /* RightToolBarFactory.m in Sources */,
 				0015A1AC282A64B800DF9915 /* DataManager.m in Sources */,
 				0015A19E282A64B800DF9915 /* ToolBarFactory.m in Sources */,
 				0015A1B8282A64B800DF9915 /* Shape.m in Sources */,
 				0015A1B7282A64B800DF9915 /* Circle.m in Sources */,
-				0015A110282A3E8800DF9915 /* SceneDelegate.m in Sources */,
 				0015A1AA282A64B800DF9915 /* SubNode.m in Sources */,
 				0015A19F282A64B800DF9915 /* Wheels.m in Sources */,
 				0015A1B5282A64B800DF9915 /* FadeViewController.m in Sources */,
 				0015A1B3282A64B800DF9915 /* PaperCanvasView.m in Sources */,
 				0015A1A1282A64B800DF9915 /* Engine.m in Sources */,
-				0015A1A5282A64B800DF9915 /* CharacterBuilder.m in Sources */,
+				0015A1E3282DE41000DF9915 /* YXNewRequest1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
