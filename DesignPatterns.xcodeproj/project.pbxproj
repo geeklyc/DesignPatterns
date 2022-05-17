@@ -50,6 +50,13 @@
 		0015A1FE282DE5E500DF9915 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A1FD282DE5E500DF9915 /* ViewController.m */; };
 		0015A20D282DF18300DF9915 /* YXDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A20C282DF18300DF9915 /* YXDataManager.m */; };
 		0015A216282DF50600DF9915 /* YXSubDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A215282DF50600DF9915 /* YXSubDataManager.m */; };
+		0015A234283328D000DF9915 /* YXAbstractSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A233283328D000DF9915 /* YXAbstractSystem.m */; };
+		0015A23D283328EA00DF9915 /* YXAbstractImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A23C283328EA00DF9915 /* YXAbstractImplementor.m */; };
+		0015A2442833292200DF9915 /* YXGBASystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A2432833292200DF9915 /* YXGBASystem.m */; };
+		0015A24D2833293B00DF9915 /* YXPSPSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A24C2833293B00DF9915 /* YXPSPSystem.m */; };
+		0015A2532833296300DF9915 /* YXPSPImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A2522833296300DF9915 /* YXPSPImplementor.m */; };
+		0015A2592833298000DF9915 /* YXGBAImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A2582833298000DF9915 /* YXGBAImplementor.m */; };
+		0015A26528332E1700DF9915 /* YXBridgeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A26428332E1700DF9915 /* YXBridgeDemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,6 +169,20 @@
 		0015A214282DF50600DF9915 /* YXSubDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXSubDataManager.h; sourceTree = "<group>"; };
 		0015A215282DF50600DF9915 /* YXSubDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXSubDataManager.m; sourceTree = "<group>"; };
 		0015A22B282E13FC00DF9915 /* ToolBarAbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolBarAbstractFactory.h; sourceTree = "<group>"; };
+		0015A232283328D000DF9915 /* YXAbstractSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXAbstractSystem.h; sourceTree = "<group>"; };
+		0015A233283328D000DF9915 /* YXAbstractSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXAbstractSystem.m; sourceTree = "<group>"; };
+		0015A23B283328EA00DF9915 /* YXAbstractImplementor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXAbstractImplementor.h; sourceTree = "<group>"; };
+		0015A23C283328EA00DF9915 /* YXAbstractImplementor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXAbstractImplementor.m; sourceTree = "<group>"; };
+		0015A2422833292200DF9915 /* YXGBASystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXGBASystem.h; sourceTree = "<group>"; };
+		0015A2432833292200DF9915 /* YXGBASystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXGBASystem.m; sourceTree = "<group>"; };
+		0015A24B2833293B00DF9915 /* YXPSPSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPSPSystem.h; sourceTree = "<group>"; };
+		0015A24C2833293B00DF9915 /* YXPSPSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPSPSystem.m; sourceTree = "<group>"; };
+		0015A2512833296300DF9915 /* YXPSPImplementor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPSPImplementor.h; sourceTree = "<group>"; };
+		0015A2522833296300DF9915 /* YXPSPImplementor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPSPImplementor.m; sourceTree = "<group>"; };
+		0015A2572833298000DF9915 /* YXGBAImplementor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXGBAImplementor.h; sourceTree = "<group>"; };
+		0015A2582833298000DF9915 /* YXGBAImplementor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXGBAImplementor.m; sourceTree = "<group>"; };
+		0015A26328332E1700DF9915 /* YXBridgeDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXBridgeDemoViewController.h; sourceTree = "<group>"; };
+		0015A26428332E1700DF9915 /* YXBridgeDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXBridgeDemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -360,6 +381,7 @@
 		0015A18B282A64B800DF9915 /* 结构型 */ = {
 			isa = PBXGroup;
 			children = (
+				0015A231283328B000DF9915 /* 桥接 */,
 				0015A1C8282B441300DF9915 /* 适配器 */,
 				0015A18C282A64B800DF9915 /* 门面（外观） */,
 			);
@@ -369,15 +391,15 @@
 		0015A18C282A64B800DF9915 /* 门面（外观） */ = {
 			isa = PBXGroup;
 			children = (
-				0015A18D282A64B800DF9915 /* Circle.h */,
-				0015A18E282A64B800DF9915 /* ShapeMaker.m */,
-				0015A18F282A64B800DF9915 /* FadeViewController.m */,
-				0015A190282A64B800DF9915 /* Rectangle.m */,
-				0015A191282A64B800DF9915 /* Shape.h */,
 				0015A192282A64B800DF9915 /* FadeViewController.h */,
+				0015A18F282A64B800DF9915 /* FadeViewController.m */,
 				0015A193282A64B800DF9915 /* ShapeMaker.h */,
-				0015A194282A64B800DF9915 /* Circle.m */,
+				0015A18E282A64B800DF9915 /* ShapeMaker.m */,
 				0015A195282A64B800DF9915 /* Rectangle.h */,
+				0015A190282A64B800DF9915 /* Rectangle.m */,
+				0015A18D282A64B800DF9915 /* Circle.h */,
+				0015A194282A64B800DF9915 /* Circle.m */,
+				0015A191282A64B800DF9915 /* Shape.h */,
 				0015A196282A64B800DF9915 /* Shape.m */,
 			);
 			path = "门面（外观）";
@@ -485,6 +507,35 @@
 				0015A14B282A64B800DF9915 /* AbstractFactoryViewController.m */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		0015A231283328B000DF9915 /* 桥接 */ = {
+			isa = PBXGroup;
+			children = (
+				0015A241283328F100DF9915 /* Abstract */,
+				0015A2422833292200DF9915 /* YXGBASystem.h */,
+				0015A2432833292200DF9915 /* YXGBASystem.m */,
+				0015A24B2833293B00DF9915 /* YXPSPSystem.h */,
+				0015A24C2833293B00DF9915 /* YXPSPSystem.m */,
+				0015A2512833296300DF9915 /* YXPSPImplementor.h */,
+				0015A2522833296300DF9915 /* YXPSPImplementor.m */,
+				0015A2572833298000DF9915 /* YXGBAImplementor.h */,
+				0015A2582833298000DF9915 /* YXGBAImplementor.m */,
+				0015A26328332E1700DF9915 /* YXBridgeDemoViewController.h */,
+				0015A26428332E1700DF9915 /* YXBridgeDemoViewController.m */,
+			);
+			path = "桥接";
+			sourceTree = "<group>";
+		};
+		0015A241283328F100DF9915 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				0015A232283328D000DF9915 /* YXAbstractSystem.h */,
+				0015A233283328D000DF9915 /* YXAbstractSystem.m */,
+				0015A23B283328EA00DF9915 /* YXAbstractImplementor.h */,
+				0015A23C283328EA00DF9915 /* YXAbstractImplementor.m */,
+			);
+			path = Abstract;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -622,20 +673,25 @@
 				0015A1B0282A64B800DF9915 /* CanvasViewController.m in Sources */,
 				0015A1F3282DE52000DF9915 /* YXAdaterDemoViewController.m in Sources */,
 				0015A1AD282A64B800DF9915 /* ClothCanvasView.m in Sources */,
+				0015A2532833296300DF9915 /* YXPSPImplementor.m in Sources */,
 				0015A10D282A3E8800DF9915 /* AppDelegate.m in Sources */,
 				0015A1B4282A64B800DF9915 /* ShapeMaker.m in Sources */,
 				0015A1FE282DE5E500DF9915 /* ViewController.m in Sources */,
 				0015A1A9282A64B800DF9915 /* YXPrototypeViewController.m in Sources */,
 				0015A20D282DF18300DF9915 /* YXDataManager.m in Sources */,
+				0015A2442833292200DF9915 /* YXGBASystem.m in Sources */,
 				0015A216282DF50600DF9915 /* YXSubDataManager.m in Sources */,
 				0015A1A6282A64B800DF9915 /* Builder.m in Sources */,
 				0015A1AE282A64B800DF9915 /* CanvasViewGenerator.m in Sources */,
 				0015A1AB282A64B800DF9915 /* YXNode.m in Sources */,
 				0015A1B6282A64B800DF9915 /* Rectangle.m in Sources */,
+				0015A23D283328EA00DF9915 /* YXAbstractImplementor.m in Sources */,
 				0015A1AF282A64B800DF9915 /* CanvasView.m in Sources */,
 				0015A1B2282A64B800DF9915 /* PaperCanvasViewGenerator.m in Sources */,
 				0015A1A2282A64B800DF9915 /* YEngine.m in Sources */,
+				0015A234283328D000DF9915 /* YXAbstractSystem.m in Sources */,
 				0015A1A0282A64B800DF9915 /* Door.m in Sources */,
+				0015A24D2833293B00DF9915 /* YXPSPSystem.m in Sources */,
 				0015A19B282A64B800DF9915 /* AbstractFactoryViewController.m in Sources */,
 				0015A199282A64B800DF9915 /* RightToolView.m in Sources */,
 				0015A19C282A64B800DF9915 /* RightTagButton.m in Sources */,
@@ -643,6 +699,8 @@
 				0015A11E282A3E8A00DF9915 /* main.m in Sources */,
 				0015A19A282A64B800DF9915 /* LeftToolView.m in Sources */,
 				0015A197282A64B800DF9915 /* LeftToolBarFactory.m in Sources */,
+				0015A26528332E1700DF9915 /* YXBridgeDemoViewController.m in Sources */,
+				0015A2592833298000DF9915 /* YXGBAImplementor.m in Sources */,
 				0015A1DD282DE40000DF9915 /* YXNewRequest2.m in Sources */,
 				0015A19D282A64B800DF9915 /* RightToolBarFactory.m in Sources */,
 				0015A19E282A64B800DF9915 /* ToolBarFactory.m in Sources */,

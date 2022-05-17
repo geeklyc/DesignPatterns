@@ -18,6 +18,7 @@
 #import "FadeViewController.h"
 
 #import "YXAdaterDemoViewController.h"
+#import "YXBridgeDemoViewController.h"
 
 //#import "MVVMDemoVC.h"
 //#import "MVCDemoVC.h"
@@ -65,30 +66,30 @@ UITableViewDataSource>
     if (indexPath.section == 0) {
 //        if (indexPath.row == 0) {
 //            MVCDemoVC *vc = [[MVCDemoVC alloc] init];
-//            [self presentViewController:vc animated:YES completion:nil];
+//            [self.navigationController pushViewController:vc animated:YES];
 //        } else if (indexPath.row == 1) {
 //            MVVMDemoVC *vc = [[MVVMDemoVC alloc] init];
-//            [self presentViewController:vc animated:YES completion:nil];
+//            [self.navigationController pushViewController:vc animated:YES];
 //        }
     } else if (indexPath.section == 1) {
         if (indexPath.row == 0) {
             YXPrototypeViewController *vc = [[YXPrototypeViewController alloc] init];
-            [self presentViewController:vc animated:YES completion:nil];
+            [self.navigationController pushViewController:vc animated:YES];
         }
         
         if (indexPath.row == 1) {
             CanvasViewController *vc = [[CanvasViewController alloc] init];
-            [self presentViewController:vc animated:YES completion:nil];
+            [self.navigationController pushViewController:vc animated:YES];
         }
         
         if (indexPath.row == 2) {
             AbstractFactoryViewController *vc = [[AbstractFactoryViewController alloc] init];
-            [self presentViewController:vc animated:YES completion:nil];
+            [self.navigationController pushViewController:vc animated:YES];
         }
         
         if (indexPath.row == 3) {
             BuilderViewController *vc = [[BuilderViewController alloc] init];
-            [self presentViewController:vc animated:YES completion:nil];
+            [self.navigationController pushViewController:vc animated:YES];
         }
         
         if (indexPath.row == 4) {
@@ -101,14 +102,34 @@ UITableViewDataSource>
 //            NSLog(@"单例分数 %ld", (long)[DataManager managerCenter].score);
         }
     } else if(indexPath.section == 2) {
-        if (indexPath.row == 4) {
-            FadeViewController *vc = [[FadeViewController alloc] init];
-            [self presentViewController:vc animated:YES completion:nil];
+        if (indexPath.row == 1)  {
+            YXBridgeDemoViewController *vc = [[YXBridgeDemoViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+        
+        if (indexPath.row == 2) {
+//            YXAdaterDemoViewController *vc = [[YXAdaterDemoViewController alloc] init];
+//            [self.navigationController pushViewController:vc animated:YES];
         }
         
         if (indexPath.row == 3) {
             YXAdaterDemoViewController *vc = [[YXAdaterDemoViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
+        }
+        
+        if (indexPath.row == 4) {
+            FadeViewController *vc = [[FadeViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+        
+        if (indexPath.row == 5) {
+//            YXAdaterDemoViewController *vc = [[YXAdaterDemoViewController alloc] init];
+//            [self.navigationController pushViewController:vc animated:YES];
+        }
+        
+        if (indexPath.row == 6) {
+//            YXAdaterDemoViewController *vc = [[YXAdaterDemoViewController alloc] init];
+//            [self.navigationController pushViewController:vc animated:YES];
         }
     }
 }
@@ -127,14 +148,14 @@ UITableViewDataSource>
         },@{
                             @"name": @"创建型",
                             @"list": @[
-                                    @"【已完成】原型", @"【已完成】工厂", @"【已完成】抽象工厂", @"建造者（生成器）", @"【已完成】单例"
+                                    @"【已完成】原型", @"【已完成】工厂", @"【已完成】抽象工厂", @"【已完成】建造者（生成器）", @"【已完成】单例"
                             ],
         },@{
                             @"name": @"结构型",
                             @"list": @[
                                     @"代理", @"桥接", @"装饰", @"【已完成】适配器", @"门面（外观）", @"组合", @"享元"
                             ],
-        },@{
+                            
                             @"name": @"行为型",
                             @"list": @[
                                     @"观察者", @"模板", @"策略", @"职责", @"状态", @"迭代器", @"访问者", @"备忘录", @"命令", @"解释器", @"中介者"
