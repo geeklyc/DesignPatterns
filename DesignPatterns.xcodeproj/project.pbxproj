@@ -57,6 +57,8 @@
 		0015A2532833296300DF9915 /* YXPSPImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A2522833296300DF9915 /* YXPSPImplementor.m */; };
 		0015A2592833298000DF9915 /* YXGBAImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A2582833298000DF9915 /* YXGBAImplementor.m */; };
 		0015A26528332E1700DF9915 /* YXBridgeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A26428332E1700DF9915 /* YXBridgeDemoViewController.m */; };
+		0015A27C283479C100DF9915 /* YXSubscriptionServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A27B283479C100DF9915 /* YXSubscriptionServiceCenter.m */; };
+		0015A28528347A4000DF9915 /* YXSubscriptionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0015A28428347A4000DF9915 /* YXSubscriptionDemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,6 +185,11 @@
 		0015A2582833298000DF9915 /* YXGBAImplementor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXGBAImplementor.m; sourceTree = "<group>"; };
 		0015A26328332E1700DF9915 /* YXBridgeDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXBridgeDemoViewController.h; sourceTree = "<group>"; };
 		0015A26428332E1700DF9915 /* YXBridgeDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXBridgeDemoViewController.m; sourceTree = "<group>"; };
+		0015A279283479AD00DF9915 /* YXSubscriptionServiceCenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXSubscriptionServiceCenterProtocol.h; sourceTree = "<group>"; };
+		0015A27A283479C100DF9915 /* YXSubscriptionServiceCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXSubscriptionServiceCenter.h; sourceTree = "<group>"; };
+		0015A27B283479C100DF9915 /* YXSubscriptionServiceCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXSubscriptionServiceCenter.m; sourceTree = "<group>"; };
+		0015A28328347A4000DF9915 /* YXSubscriptionDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXSubscriptionDemoViewController.h; sourceTree = "<group>"; };
+		0015A28428347A4000DF9915 /* YXSubscriptionDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXSubscriptionDemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +277,7 @@
 		0015A143282A64B800DF9915 /* 行为型 */ = {
 			isa = PBXGroup;
 			children = (
+				0015A2782834799300DF9915 /* 观察者 */,
 			);
 			path = "行为型";
 			sourceTree = "<group>";
@@ -538,6 +546,18 @@
 			path = Abstract;
 			sourceTree = "<group>";
 		};
+		0015A2782834799300DF9915 /* 观察者 */ = {
+			isa = PBXGroup;
+			children = (
+				0015A279283479AD00DF9915 /* YXSubscriptionServiceCenterProtocol.h */,
+				0015A27A283479C100DF9915 /* YXSubscriptionServiceCenter.h */,
+				0015A27B283479C100DF9915 /* YXSubscriptionServiceCenter.m */,
+				0015A28328347A4000DF9915 /* YXSubscriptionDemoViewController.h */,
+				0015A28428347A4000DF9915 /* YXSubscriptionDemoViewController.m */,
+			);
+			path = "观察者";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -688,11 +708,13 @@
 				0015A23D283328EA00DF9915 /* YXAbstractImplementor.m in Sources */,
 				0015A1AF282A64B800DF9915 /* CanvasView.m in Sources */,
 				0015A1B2282A64B800DF9915 /* PaperCanvasViewGenerator.m in Sources */,
+				0015A28528347A4000DF9915 /* YXSubscriptionDemoViewController.m in Sources */,
 				0015A1A2282A64B800DF9915 /* YEngine.m in Sources */,
 				0015A234283328D000DF9915 /* YXAbstractSystem.m in Sources */,
 				0015A1A0282A64B800DF9915 /* Door.m in Sources */,
 				0015A24D2833293B00DF9915 /* YXPSPSystem.m in Sources */,
 				0015A19B282A64B800DF9915 /* AbstractFactoryViewController.m in Sources */,
+				0015A27C283479C100DF9915 /* YXSubscriptionServiceCenter.m in Sources */,
 				0015A199282A64B800DF9915 /* RightToolView.m in Sources */,
 				0015A19C282A64B800DF9915 /* RightTagButton.m in Sources */,
 				0015A1A8282A64B800DF9915 /* BuilderViewController.m in Sources */,

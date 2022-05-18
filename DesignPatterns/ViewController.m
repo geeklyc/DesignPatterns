@@ -19,6 +19,7 @@
 
 #import "YXAdaterDemoViewController.h"
 #import "YXBridgeDemoViewController.h"
+#import "YXSubscriptionDemoViewController.h"
 
 //#import "MVVMDemoVC.h"
 //#import "MVCDemoVC.h"
@@ -131,6 +132,12 @@ UITableViewDataSource>
 //            YXAdaterDemoViewController *vc = [[YXAdaterDemoViewController alloc] init];
 //            [self.navigationController pushViewController:vc animated:YES];
         }
+    } else {
+        if (indexPath.row == 0)  {
+            YXSubscriptionDemoViewController *vc = [[YXSubscriptionDemoViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+        
     }
 }
 
@@ -153,14 +160,15 @@ UITableViewDataSource>
         },@{
                             @"name": @"结构型",
                             @"list": @[
-                                    @"代理", @"桥接", @"装饰", @"【已完成】适配器", @"门面（外观）", @"组合", @"享元"
-                            ],
-                            
+                                    @"代理", @"【已完成】桥接", @"装饰", @"【已完成】适配器", @"【已完成】门面（外观）", @"组合", @"享元"
+                            ]
+        },@{
                             @"name": @"行为型",
                             @"list": @[
-                                    @"观察者", @"模板", @"策略", @"职责", @"状态", @"迭代器", @"访问者", @"备忘录", @"命令", @"解释器", @"中介者"
-                            ],
-        } ];
+                                    @"观察者", @"模板", @"策略", @"职责", @"状态", @"迭代器", @"访问者", @"备忘录", @"命令", @"解释器", @"【已完成】中介者"
+                            ]
+        }, ];
+        
     }
     return _listArray;
 }
